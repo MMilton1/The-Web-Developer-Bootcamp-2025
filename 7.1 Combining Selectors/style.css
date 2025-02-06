@@ -10,8 +10,9 @@ h2 {
 .list li {
   color: blue;
 }
-p.done#items[draggable] {
+ul .done#items {
   color: seagreen;
+  font-size: 0.5rem;
 }
 
 li.done {
