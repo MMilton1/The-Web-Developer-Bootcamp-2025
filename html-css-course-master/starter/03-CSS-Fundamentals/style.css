@@ -1,12 +1,6 @@
-/* Combining Selectors */
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+body {
   color: #444;
+  font-family: sans-serif;
 }
 
 h1,
@@ -51,7 +45,7 @@ li {
   font-size: 18px;
 }
 
-.copy {
+.copyright {
   font-size: 16px;
 }
 
@@ -82,9 +76,9 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(2) {
+/* li:nth-child(2) {
   /* color: orangered; */
-}
+/* } */
 
 /* Misconception: this will not work */
 article p:first-child {
@@ -112,3 +106,16 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/* Resolving conflicts */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: purple;
+} */
+
+/* footer p {
+  color: purple !important;
+} */
