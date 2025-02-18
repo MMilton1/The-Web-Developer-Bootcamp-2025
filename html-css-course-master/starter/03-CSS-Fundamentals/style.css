@@ -3,16 +3,23 @@
   padding: 0;
 }
 
+/* PAGE SECTION */
+
 body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  /* height: 80px; */
 }
 
 nav {
@@ -30,8 +37,10 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -150,3 +159,47 @@ a:active {
 /* footer p {
   color: purple !important;
 } */
+
+.post-img {
+  width: 100%;
+}
+
+nav a:link {
+  /* background-color: #ff4500;
+  margin: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.box {
+  display: inline-block;
+  color: #0000008b;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.green {
+  background-color: green;
+  border: 2px solid black;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.red {
+  background-color: red;
+  border: 2px solid black;
+}
+.blue {
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.brown {
+  background-color: brown;
+  border: 2px solid black;
+}
